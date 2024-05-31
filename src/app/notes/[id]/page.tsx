@@ -1,5 +1,10 @@
 import styles from "./../Notes.module.css";
 
+export const metadata = {
+  title: "Notes App",
+  description: "Created by Kelvin Fumo",
+};
+
 async function getNote(noteID: String) {
   const res = await fetch(
     `http://127.0.0.1:8090/api/collections/Notes/records/${noteID}`,

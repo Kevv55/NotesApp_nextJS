@@ -6,6 +6,11 @@ import CreateNote from "./[id]/CreateNote";
 import { IoMdClose } from "react-icons/io";
 import DeleteNote from "./[id]/DeleteNote";
 
+export const metadata = {
+  title: "Notes App",
+  description: "Created by Kelvin Fumo",
+};
+
 // Pocket base comes with built in REST API
 // that points to the notes collection and retreives a paginated list
 // of results
